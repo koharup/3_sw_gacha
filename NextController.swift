@@ -7,6 +7,8 @@
 //
 
 import UIKit
+//音楽
+import AVFoundation
 
 class NextController: UIViewController {
     
@@ -22,6 +24,9 @@ class NextController: UIViewController {
     
     
     var characterArray: [UIImage]!
+    
+    //音楽を再生するための変数
+    var audioPlayer : AVAudioPlayer!
 
     
 
@@ -43,6 +48,17 @@ class NextController: UIViewController {
         
         nameLabel.text = nameArray[number]
         
+
+        
+        //音楽ファイルの設定
+        
+        let audioPath = URL(fileURLWithPath: Bundle.main.path(forResource: "dmusic", ofType: "m4a")!)
+        
+        //再生の準備
+        audioPlayer = try? AVAudioPlayer(contentsOf: audioPath)
+        
+        //音楽を再生
+        audioPlayer.play()
         
     
         
