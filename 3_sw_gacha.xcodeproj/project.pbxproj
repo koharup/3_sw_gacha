@@ -15,6 +15,13 @@
 		D684E9892429D7F50030F989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D684E9872429D7F50030F989 /* LaunchScreen.storyboard */; };
 		D684E9942429D7F50030F989 /* __sw_gachaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684E9932429D7F50030F989 /* __sw_gachaTests.swift */; };
 		D684E99F2429D7F50030F989 /* __sw_gachaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684E99E2429D7F50030F989 /* __sw_gachaUITests.swift */; };
+		D684E9AF2429DA950030F989 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = D684E9AE2429DA950030F989 /* book.png */; };
+		D684E9B52429FE8C0030F989 /* bel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D684E9B02429FE8B0030F989 /* bel.jpg */; };
+		D684E9B62429FE8C0030F989 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = D684E9B12429FE8B0030F989 /* book.png */; };
+		D684E9B72429FE8C0030F989 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D684E9B22429FE8B0030F989 /* snow.jpg */; };
+		D684E9B82429FE8C0030F989 /* aris.png in Resources */ = {isa = PBXBuildFile; fileRef = D684E9B32429FE8C0030F989 /* aris.png */; };
+		D684E9BB2429FF520030F989 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = D684E9BA2429FF520030F989 /* tree.png */; };
+		D684E9BF242A01380030F989 /* NextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684E9BE242A01380030F989 /* NextController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		D684E99A2429D7F50030F989 /* 3_sw_gachaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3_sw_gachaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684E99E2429D7F50030F989 /* __sw_gachaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __sw_gachaUITests.swift; sourceTree = "<group>"; };
 		D684E9A02429D7F50030F989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D684E9AE2429DA950030F989 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		D684E9B02429FE8B0030F989 /* bel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bel.jpg; sourceTree = "<group>"; };
+		D684E9B12429FE8B0030F989 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		D684E9B22429FE8B0030F989 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
+		D684E9B32429FE8C0030F989 /* aris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aris.png; sourceTree = "<group>"; };
+		D684E9BA2429FF520030F989 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		D684E9BE242A01380030F989 /* NextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NextController.swift; path = ../NextController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,12 @@
 		D684E9702429D7F40030F989 = {
 			isa = PBXGroup;
 			children = (
+				D684E9BA2429FF520030F989 /* tree.png */,
+				D684E9AE2429DA950030F989 /* book.png */,
+				D684E9B32429FE8C0030F989 /* aris.png */,
+				D684E9B02429FE8B0030F989 /* bel.jpg */,
+				D684E9B12429FE8B0030F989 /* book.png */,
+				D684E9B22429FE8B0030F989 /* snow.jpg */,
 				D684E97B2429D7F40030F989 /* 3_sw_gacha */,
 				D684E9922429D7F50030F989 /* 3_sw_gachaTests */,
 				D684E99D2429D7F50030F989 /* 3_sw_gachaUITests */,
@@ -99,6 +119,7 @@
 		D684E97B2429D7F40030F989 /* 3_sw_gacha */ = {
 			isa = PBXGroup;
 			children = (
+				D684E9BE242A01380030F989 /* NextController.swift */,
 				D684E97C2429D7F40030F989 /* AppDelegate.swift */,
 				D684E97E2429D7F40030F989 /* SceneDelegate.swift */,
 				D684E9802429D7F40030F989 /* ViewController.swift */,
@@ -234,7 +255,13 @@
 			files = (
 				D684E9892429D7F50030F989 /* LaunchScreen.storyboard in Resources */,
 				D684E9862429D7F50030F989 /* Assets.xcassets in Resources */,
+				D684E9BB2429FF520030F989 /* tree.png in Resources */,
+				D684E9B82429FE8C0030F989 /* aris.png in Resources */,
+				D684E9B62429FE8C0030F989 /* book.png in Resources */,
+				D684E9AF2429DA950030F989 /* book.png in Resources */,
 				D684E9842429D7F40030F989 /* Main.storyboard in Resources */,
+				D684E9B72429FE8C0030F989 /* snow.jpg in Resources */,
+				D684E9B52429FE8C0030F989 /* bel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +288,7 @@
 			files = (
 				D684E9812429D7F40030F989 /* ViewController.swift in Sources */,
 				D684E97D2429D7F40030F989 /* AppDelegate.swift in Sources */,
+				D684E9BF242A01380030F989 /* NextController.swift in Sources */,
 				D684E97F2429D7F40030F989 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
