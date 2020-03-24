@@ -10,6 +10,7 @@ import UIKit
 
 class NextController: UIViewController {
     
+    @IBOutlet  var nameLabel: UILabel!
     @IBOutlet  var backImgae: UIImageView!
     
     @IBOutlet  var tree0: UIImageView!
@@ -20,11 +21,8 @@ class NextController: UIViewController {
     @IBOutlet var tree5: UIImageView!
     
     
-    
-    
-    
-    
     var characterArray: [UIImage]!
+
     
 
     override func viewDidLoad() {
@@ -36,7 +34,15 @@ class NextController: UIViewController {
                           UIImage(named: "bel.jpg")!,
                           UIImage(named: "snow.jpg")!]
         
+        let nameArray: [String] = ["Alice","Belle","Snow White"]
+        
+    
+        
+        
         backImgae.image = characterArray[number]
+        
+        nameLabel.text = nameArray[number]
+        
         
     
         

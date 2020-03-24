@@ -55,11 +55,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="4bV-nl-p2U">
-                                <rect key="frame" x="20" y="626" width="121" height="158"/>
+                                <rect key="frame" x="18" y="684" width="121" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="JnL-RT-tbm">
+                                <rect key="frame" x="293" y="684" width="121" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="JhW-IM-k37">
-                                <rect key="frame" x="147" y="626" width="121" height="158"/>
+                                <rect key="frame" x="147" y="684" width="121" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="jrH-lP-7w5">
@@ -82,16 +86,23 @@
                                 <rect key="frame" x="20" y="251" width="374" height="367"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="JnL-RT-tbm">
-                                <rect key="frame" x="293" y="626" width="121" height="158"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igs-Hm-U5I">
+                                <rect key="frame" x="20" y="626" width="374" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="48"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RhT-ir-h5j"/>
                     </view>
                     <connections>
                         <outlet property="backImgae" destination="0Ao-Sj-hzr" id="S7U-4d-byZ"/>
+                        <outlet property="nameLabel" destination="Igs-Hm-U5I" id="wEq-oZ-9fT"/>
                         <outlet property="tree0" destination="jrH-lP-7w5" id="I8f-vH-KiO"/>
                         <outlet property="tree1" destination="V2w-qD-emo" id="AFe-EH-b3Z"/>
                         <outlet property="tree2" destination="wak-6i-CTP" id="Le2-5x-SlJ"/>
